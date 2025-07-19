@@ -3987,7 +3987,8 @@ figcaption {
 }
 
 .header-logo {
-  max-width: 220px;
+  max-width: 250px;
+  margin-bottom: 56px;
 }
 
 .header-navigation {
@@ -4898,7 +4899,7 @@ figcaption {
 .title.about-careers {
   margin-bottom: 16px;
   font-size: 32px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .title.h4-size {
@@ -8333,7 +8334,7 @@ figcaption {
 }
 
 .success-message-2 {
-  background-color: #eee1ff;
+  background-color: #d8ffd4;
   border-radius: 8px;
 }
 
@@ -8342,11 +8343,12 @@ figcaption {
 }
 
 .bold-text-3 {
-  font-size: 42px;
-  font-weight: 600;
+  font-size: 52px;
+  font-weight: 700;
 }
 
 .bold-text-4 {
+  font-size: 20px;
   font-weight: 600;
 }
 
@@ -8357,7 +8359,7 @@ figcaption {
 
   .paragraph-large.home-hero {
     max-width: 720px;
-    margin-bottom: 32px;
+    margin-bottom: 56px;
     font-size: 18px;
   }
 
@@ -8384,8 +8386,9 @@ figcaption {
   }
 
   .header-logo {
-    max-width: 220px;
-    margin-bottom: 80px;
+    aspect-ratio: auto;
+    max-width: 240px;
+    margin-bottom: 64px;
     position: static;
   }
 
@@ -8401,7 +8404,7 @@ figcaption {
   .title.about-careers {
     margin-bottom: 8px;
     font-size: 38px;
-    font-weight: 600;
+    font-weight: 700;
   }
 
   .image.footer-nav-link-social-media-icon.intagram-shadow.mg-0 {
@@ -8420,7 +8423,7 @@ figcaption {
     grid-template-rows: auto auto;
     grid-template-columns: 1fr 1fr;
     grid-auto-columns: 1fr;
-    max-width: 674px;
+    max-width: 700px;
     display: block;
   }
 
@@ -8447,6 +8450,10 @@ figcaption {
     max-height: 40px;
   }
 
+  .hero-image-wrapper {
+    height: 700px;
+  }
+
   .image-home-link-wrapper {
     max-width: 560px;
   }
@@ -8455,7 +8462,7 @@ figcaption {
     font-family: Montserrat, sans-serif;
     font-size: 64px;
     font-weight: 700;
-    line-height: 1.1em;
+    line-height: 1em;
   }
 
   .text-block, .text-block-2 {
@@ -8504,7 +8511,12 @@ figcaption {
   }
 
   .bold-text-3 {
-    font-weight: 600;
+    font-weight: 700;
+    line-height: .9em;
+  }
+
+  .bold-text-4 {
+    font-size: 20px;
   }
 }
 
@@ -9255,7 +9267,7 @@ figcaption {
   .home-hero-content {
     text-align: center;
     min-width: auto;
-    max-width: 650px;
+    max-width: 700px;
     margin-bottom: 60px;
   }
 
@@ -10058,6 +10070,10 @@ figcaption {
   .heading {
     text-align: left;
     font-size: 48px;
+  }
+
+  .text-block-3 {
+    text-align: left;
   }
 }
 
@@ -12219,7 +12235,11 @@ figcaption {
     margin-bottom: 0;
   }
 
-  .title.about-careers, .title.h4-size {
+  .title.about-careers {
+    font-size: 20px;
+  }
+
+  .title.h4-size {
     font-size: 18px;
   }
 
@@ -13366,6 +13386,14 @@ figcaption {
 
   .form-2 {
     flex-flow: column;
+  }
+
+  .bold-text-3 {
+    font-size: 29px;
+  }
+
+  .bold-text-4 {
+    font-size: 16px;
   }
 }
 

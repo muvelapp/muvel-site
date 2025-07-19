@@ -7,7 +7,7 @@
         e.preventDefault();
 
         const email = document.getElementById("email").value;
-        fetch("http://api.muvelapp.com/api/v1/site/register-email", {
+        fetch("https://api.muvelapp.com/api/v1/site/register-email", {
             method: "POST",
             headers: {
                 "Content-Type": "application/x-www-form-urlencoded"

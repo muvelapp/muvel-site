@@ -294,7 +294,7 @@ pre.w-code-block code {
   display: contents;
 }
 
-.w-webflow-badge, .w-webflow-badge > img {
+.w-badge, .w-badge > img {
   box-sizing: unset;
   width: unset;
   height: unset;
@@ -344,7 +344,7 @@ pre.w-code-block code {
   transition: unset;
 }
 
-.w-webflow-badge {
+.w-badge {
   white-space: nowrap;
   cursor: pointer;
   box-shadow: 0 0 0 1px #0000001a, 0 1px 3px #0000001a;
@@ -368,7 +368,7 @@ pre.w-code-block code {
   transform: none !important;
 }
 
-.w-webflow-badge > img {
+.w-badge > img {
   position: unset;
   visibility: unset !important;
   opacity: 1 !important;
@@ -3419,7 +3419,6 @@ strong {
 
 blockquote {
   background-color: #fff;
-  background-image: url("https://cdn.prod.website-files.com/687103ee3de84ca63ff84767/687103ee3de84ca63ff847a1_shape-border-block-quote-app-x-template.svg");
   background-position: 0%;
   background-repeat: no-repeat;
   background-size: auto 100%;
@@ -4308,7 +4307,6 @@ figcaption {
 ._404-title {
   color: var(--primary-1);
   -webkit-text-fill-color: transparent;
-  background-image: url("https://cdn.prod.website-files.com/687103ee3de84ca63ff84767/687103ee3de84ca63ff84822_bg-3-features-app-x-template.jpg");
   background-position: 0 0;
   background-size: cover;
   -webkit-background-clip: text;
@@ -6350,7 +6348,6 @@ figcaption {
 }
 
 .card-team-social-media-link.facebook {
-  background-image: url("https://cdn.prod.website-files.com/687103ee3de84ca63ff84767/687103ee3de84ca63ff847ce_icon-1-social-media-app-x-template.svg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -6358,7 +6355,6 @@ figcaption {
 }
 
 .card-team-social-media-link.twitter {
-  background-image: url("https://cdn.prod.website-files.com/687103ee3de84ca63ff84767/687103ee3de84ca63ff847de_icon-2-social-media-app-x-template.svg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -6366,7 +6362,6 @@ figcaption {
 }
 
 .card-team-social-media-link.linkedin {
-  background-image: url("https://cdn.prod.website-files.com/687103ee3de84ca63ff84767/687103ee3de84ca63ff847cc_icon-4-social-media-app-x-template.svg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -8237,65 +8232,8 @@ figcaption {
   line-height: 1.4em;
 }
 
-.more-webflow-templates-sub {
-  color: #523ff5;
-  text-decoration: underline;
-}
-
-.more-templates-lottie {
-  width: 44px;
-  position: absolute;
-  inset: -20px -20px auto auto;
-}
-
-.brix-badges-wrapper {
-  z-index: 99999999;
-  width: 310px;
-  height: 120px;
-  position: fixed;
-  inset: auto 50px 0 auto;
-}
-
-.more-templates-lottie-2 {
-  z-index: 9999;
-  width: 44px;
-  position: absolute;
-  inset: -18px -19px auto auto;
-}
-
 .hidden-code {
   display: none;
-}
-
-.more-templates-badge-wrapper {
-  z-index: 9991;
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
-  opacity: 0;
-  color: #666977;
-  background-color: #fff;
-  border: 1px solid #f0f0f6;
-  border-radius: 12px;
-  align-items: center;
-  width: 100%;
-  max-width: 310px;
-  min-height: 76px;
-  padding: 12px 22px 12px 18px;
-  text-decoration: none;
-  transition-property: none;
-  display: flex;
-  position: absolute;
-  transform: scale(.9)translate(0, 20px);
-  box-shadow: 0 .6px .8px #1010650a, 0 3px 6px #11115414;
-}
-
-.more-templates-badge-wrapper:hover {
-  color: #666977;
-}
-
-.more-templates-badge-wrapper.customization {
-  border-color: #4a3aff;
-  padding-left: 10px;
 }
 
 .body {
@@ -11701,7 +11639,6 @@ figcaption {
   }
 
   blockquote {
-    background-image: url("https://cdn.prod.website-files.com/687103ee3de84ca63ff84767/687103ee3de84ca63ff847a1_shape-border-block-quote-app-x-template.svg");
     background-position: 0%;
     background-repeat: no-repeat;
     background-size: auto 100%;
